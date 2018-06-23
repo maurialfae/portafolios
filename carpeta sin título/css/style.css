@@ -1,0 +1,249 @@
+body { font-family: "Asap", sans-serif;
+       font-size: 16px;
+       margin: 0;
+     
+}
+.main{ width: 100%;
+}
+.intro{ background-image: url(../img/fondo.png);
+    color: #fff;
+    min-height: 990px;
+    width: 100%;
+}
+.azul{ background-color:#189bcf92;
+    position: relative;
+    top: 790px;
+    height: 200px;
+}
+.inline{ background-color:#189bcfd4;
+    height: 400px;
+    position: relative;
+    bottom: 200px;
+}
+header{
+position: fixed;
+background-color: rgba(184, 230, 255, 0.845);
+width: 100%;
+z-index: 999;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 77%;
+}
+.fluid2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+
+.contenido{
+    float: left;
+    width: 80%;
+    position: relative;
+    top: 240px;
+    left: 11.5%;
+}
+.cel{float: right;
+    width:32%;
+    z-index: 333;
+    position: relative; 
+    right: 6.4%;  
+    bottom: 70px;
+}
+.center{
+display: inline-block;
+z-index: 3;
+width: 60%;
+position: relative;
+bottom: 150px;
+left: 12%;
+}
+.center img{
+    padding-left: 10px;
+}
+
+h1{
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+.solidblue{
+    background-color:#0084b8;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 31px;
+}
+.solidblue div{
+   text-align: center;
+   color: #fff;
+}
+.solidblue div h2{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0;
+}
+button{
+    background-color: #49b9e6;
+    color: #fff;
+    padding: 14px 18px 14px 18px;
+    border: none;
+    border-radius: 6px;
+}
+.cuadrotexto{
+    width: 35%;
+}
+.cuadrotexto p{
+    line-height: 1.4em;
+    text-align: justify;
+}
+.cuadrotexto2{
+    width: 35%;
+    position:relative;
+    left:3%
+}
+.cuadrotexto2 p{
+    line-height: 1.4em;
+    text-align: justify;
+}
+.colitas{
+    width: 30%;
+}
+.woman{
+    width: 100%;
+    margin-right: 0;
+    text-align: right;
+    z-index: 1;
+    position: relative;
+    bottom: 58px;
+}
+
+.gris{
+    background-color: rgb(230, 230, 230);
+    width: 90%;
+    border-radius: 12px;   
+}
+.gris p{
+    width: 90%;
+    padding: 20px;
+    color: rgb(165, 165, 165);
+}
+h4{
+    color: #0084b8;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    float: left;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.solidgris{
+    background-color:#ecf0f1;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.solidgris div{
+    text-align: center;
+}
+.solidgris div p{
+    width: 40%;
+    position:relative;
+    left:30%;
+}
+.aerosol{
+    position: relative;
+    right: 43px;
+}
+.freak{
+    position: relative;
+   right: 43px;
+}
+.textaerosol {
+    position: relative;
+    right: 19px;
+}
+.textfreak {
+    position: relative;
+    right: 35px;
+}
+.amarillo{
+    text-align: center;
+    color: #fff;
+    background-color: #f1c40f;
+    padding: 50px;
+}
+.amarilloscuro{
+    color: #fff;
+    background-color: #d8af0c;
+    padding: 100px;
+}
+i{
+    font-family: "Asap 400i" sans-serif;
+}
+.mas{
+    color: #0084b8;
+}
+.claro{
+    color: rgb(169, 169, 169);
+}
+.medio{
+    margin-right: 120px;
+}
+h3{
+    font-size: 2em;
+    letter-spacing: 0.14em;
+}
+h6{
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.516);
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: -10px;
+    bottom: -3550px;
+    
+}
+
+.fin {
+    width: 30%;
+}
+.fin p{
+    text-align: left;
+    padding-left: 11%;
+}
+.fin h2 img{
+    padding-right: 10px;
+    position: relative;
+    top:6px;
+}
+.fin h2{
+    font-family: "Asap" sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+.general{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 2%;
+}
+.fin:last-child{
+    position: relative;
+    width: 15%;
+}
+.fin:nth-child(2){
+    position: relative;
+    left: 1%;
+}
